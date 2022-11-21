@@ -312,6 +312,7 @@ textarea {
         align-items: center; } }
     .projects__row-content-title {
       font-weight: 700;
+      font-family: 'Montserrat', sans-serif;
       font-size: 2.8rem;
       margin-bottom: 2rem; }
       @media only screen and (max-width: 37.5em) {
