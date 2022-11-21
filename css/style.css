@@ -40,7 +40,7 @@ body {
   font-family: sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: 'Monospace', sans-serif; }
 
 a {
   text-decoration: none;
@@ -65,6 +65,7 @@ textarea {
 .heading-primary {
   font-size: 6rem;
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 3px;
   text-align: center; }
   @media only screen and (max-width: 37.5em) {
@@ -85,6 +86,7 @@ textarea {
 
 .heading-sec__main {
   display: block;
+  font-family: 'Montserrat', sans-serif;
   font-size: 4rem;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -277,14 +279,15 @@ textarea {
 
 .projects__row {
   display: grid;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   grid-template-columns: 1.5fr 1fr;
   grid-gap: 5rem;
-  margin-bottom: 11rem; }
+  margin-bottom: 6rem; }
   @media only screen and (max-width: 56.25em) {
     .projects__row {
       grid-template-columns: 1fr;
       grid-gap: 2rem;
-      margin-bottom: 8rem; } }
+      margin-bottom: 5rem; } }
   @media only screen and (max-width: 56.25em) {
     .projects__row {
       text-align: center; } }
