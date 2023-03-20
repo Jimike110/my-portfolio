@@ -48,6 +48,19 @@ $(document).ready(function(){
         loop: true
     }); */
 
+// download popup script
+const downloadBtn = document.querySelector('#download-cv');
+const modal = document.querySelector('#modal');
+const closeBtn = document.querySelector('#close-btn');
+
+downloadBtn.addEventListener('click', () => {
+  modal.style.display = 'block';
+});
+
+closeBtn.addEventListener('click', () => {
+  modal.style.display = 'none';
+});
+
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
