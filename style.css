@@ -459,6 +459,9 @@ section .title::after {
 .skills-content .right .graphics::before {
   width: 60%;
 }
+.skills-content .right .communication::before {
+  width:  100%;
+}
 
 /* projects section styling */
 .projects .title::after {
