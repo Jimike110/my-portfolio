@@ -1133,12 +1133,16 @@ footer span a:hover {
   width: 20px;
 }
 
+.main-footer__icon:hover {
+  cursor: pointer;
+}
+
 .main-footer__icon--mr-none {
   margin-right: 0;
 }
 
 .main-footer__lower {
-  padding: 4rem 0;
+  padding: 2rem 0;
   border-top: 1px solid #444;
   color: #eee;
   font-size: 12px;
@@ -1154,6 +1158,6 @@ footer span a:hover {
 
 @media only screen and (max-width: 56.25em) {
   .main-footer__lower {
-    padding: 3.5rem 0;
+    padding: 2rem 0;
   }
 }
