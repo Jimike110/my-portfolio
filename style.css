@@ -484,15 +484,15 @@ section .title::after {
 }
 
 .skills-content .right .html::before {
-  width: 90%;
+  width: 100%;
 }
 
 .skills-content .right .css::before {
-  width: 80%;
+  width: 90%;
 }
 
 .skills-content .right .js::before {
-  width: 70%;
+  width: 80%;
 }
 
 .skills-content .right .wordpress::before {
