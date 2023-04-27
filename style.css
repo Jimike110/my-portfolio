@@ -1,5 +1,5 @@
 /*  import google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 
 * {
   margin: 0;
@@ -14,6 +14,7 @@ html {
 
 a {
   color: crimson;
+  color: #1a0b6970;
 }
 a:hover {
   cursor: pointer;
@@ -39,7 +40,7 @@ a:active {
 }
 
 html {
-   -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* all similar content styling codes */
@@ -60,7 +61,7 @@ section {
 .teams,
 .contact,
 footer {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .about .about-content,
@@ -81,7 +82,7 @@ section .title {
   font-weight: 500;
   margin-bottom: 60px;
   padding-bottom: 20px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 section .title::before {
@@ -112,7 +113,7 @@ section .title::after {
   width: 100%;
   z-index: 999;
   padding: 30px 0;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
 }
 
@@ -202,7 +203,6 @@ section .title::after {
   filter: brightness(90%);
 }
 
-
 /* home section styling */
 .home {
   display: flex;
@@ -212,7 +212,7 @@ section .title::after {
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .home .max-width {
@@ -503,7 +503,7 @@ section .title::after {
   width: 60%;
 }
 .skills-content .right .communication::before {
-  width:  100%;
+  width: 100%;
 }
 
 /* projects section styling */
@@ -565,7 +565,6 @@ section .title::after {
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
-
 }
 
 .projects .proj-content .left a {
@@ -636,7 +635,6 @@ section .title::after {
     position: relative;
     top: -40px;
     text-align: center;
-    
   }
 }
 
@@ -684,7 +682,7 @@ section .title::after {
 
 .projects__row-content-title {
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 2.8rem;
   margin-bottom: 2rem;
 }
@@ -707,7 +705,7 @@ section .title::after {
   .projects__row-content-desc {
     font-size: 1.7rem;
   }
-} 
+}
 
 /* teams section styling */
 .teams .title::after {
@@ -861,7 +859,7 @@ section .title::after {
   outline: none;
   padding: 0 15px;
   font-size: 17px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   transition: all 0.3s ease;
 }
 
@@ -917,7 +915,6 @@ footer span a {
 footer span a:hover {
   text-decoration: underline;
 }
-
 
 /* responsive media query start */
 @media (max-width: 1104px) {
