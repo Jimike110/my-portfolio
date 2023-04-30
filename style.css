@@ -209,7 +209,6 @@ section .title::after {
   background: url("images/hero bg.png") no-repeat center;
   height: 100vh;
   color: #fff;
-  resize: horizontal;
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
