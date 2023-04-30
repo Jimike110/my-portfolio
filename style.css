@@ -162,7 +162,7 @@ section .title::after {
 }
 
 .navbar.sticky .menu li a:hover {
-  color: #fff;
+  color: #000000;
 }
 
 /* menu btn styling */
@@ -804,6 +804,14 @@ section .title::after {
   text-align: justify;
 }
 
+.contact .contact-content .left p a {
+  color: crimson !important;
+}
+
+.contact .contact-content .left p a:hover {
+  text-decoration: underline !important;
+}
+
 .contact .contact-content .left .icons {
   margin: 10px 0;
 }
@@ -908,13 +916,13 @@ footer {
   text-align: center;
 }
 
-footer span a {
+footer p a {
   color: crimson;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
-footer span a:hover {
-  text-decoration: underline;
+footer p a:hover {
+  text-decoration: underline !important;
 }
 
 /* responsive media query start */
@@ -965,6 +973,10 @@ footer span a:hover {
     display: inline-block;
     margin: 20px 0;
     font-size: 25px;
+  }
+
+  .navbar .menu li a:hover {
+    color: crimson !important;
   }
 
   .home .home-content .text-2 {
