@@ -464,6 +464,7 @@ section .title::after {
   align-items: center;
   justify-content: center;
   width: 25%;
+  min-width: 150px;
   height: 160px;
   margin: 15px;
   padding: 20px;
