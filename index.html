@@ -12,8 +12,8 @@
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" /> -->
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-VLL46ZEXJG"></script>
@@ -61,7 +61,14 @@
         <div class="text-1">Hello, my name is</div>
         <div class="text-2">Michael Oladoye</div>
         <div class="text-3">And I'm a <span class="typing"></span></div>
-        <a href="#contact">Message me</a>
+        <a id="download-cv" href="./assets/pdf/MICHAEL OLADOYE RESUME.pdf" download>Download CV</a>
+          <div id="modal">
+            <div class="modal-content">
+              <span>Your download has started. If it hasn't, <a href="./assets/pdf/MICHAEL OLADOYE RESUME.pdf"
+                  download>click here</a></span><br>
+              <button id="close-btn">Close</button>
+            </div>
+          </div>
       </div>
     </div>
   </section>
@@ -76,7 +83,7 @@
         </div>
         <div class="column right">
           <div class="text">I build things for <span style="color: crimson;">The Web.</span></div>
-          <p>Hello, I'm <b>Michael</b>, a frontend developer also known as <b>Jimike</b>.
+          <p>Hello, I'm <strong>Michael</strong>, a frontend developer also known as <b>Jimike</b>.
             My passion for frontend development started with a fascination for the creative possibilities it offers.
             I love the process of turning lines of code into something visually appealing and intuitive for users.<br>
             With my expertise in <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, I'm constantly exploring new ways to
@@ -88,14 +95,7 @@
             are both visually stunning and highly usable.<br>
             If you're looking for a <b>frontend developer</b> who is passionate about creating engaging user experiences
             and delivering high-quality work, I'd love to hear from you.</p>
-          <a id="download-cv" href="./assets/pdf/MICHAEL OLADOYE RESUME.pdf" download>Download CV</a>
-          <div id="modal">
-            <div class="modal-content">
-              <span>Your download has started. If it hasn't, <a href="./assets/pdf/MICHAEL OLADOYE RESUME.pdf"
-                  download>click here</a></span><br>
-              <button id="close-btn">Close</button>
-            </div>
-          </div>
+        <a href="#contact">Message me</a>
         </div>
       </div>
     </div>
@@ -146,8 +146,8 @@
       <div class="skills-content">
         <div class="column left">
           <div class="text">My creative skills & experiences.</div>
-          <p>Skilled Frontend Developer with years of experience in <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, and
-            <b>WordPress</b>. My expertise in creating appealing, responsive and dynamic web pages, building interactive
+          <p>Skilled Frontend Developer in <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and
+            <strong>WordPress</strong>. My expertise in creating appealing, responsive and dynamic web pages, building interactive
             web applications, enables me to deliver high-quality work that exceeds client expectations. I also possess a
             strong attention to detail and effective collaboration skills.</p>
           <!-- <a href="#">Read more</a> -->
@@ -347,7 +347,7 @@
     </div>
     </div>
     <div id="more-projects">
-      <a class="more-projects" href="">More Projects &nearrow;</a>
+      <a class="more-projects" href="#">More Coming!</a>
     </div>
     </div>
     </div>
