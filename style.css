@@ -451,7 +451,39 @@ section .title::after {
   background: none;
 }
 
-.skills .skills-content .right .bars {
+.skills .skills-content .right .my-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.skills .skills-content .right .my-skills .skill-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height: 160px;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 11px;
+  box-shadow: 0 0 5px 0 #b3b3b3;
+}
+
+.skills .skills-content .right .my-skills .skill-logo:hover {
+  transform: scale(1.05);
+}
+
+.skills .skills-content .right .my-skills .skill-logo img {
+  width: 90%;
+}
+
+.skills .skills-content .right .my-skills .skill-logo p {
+  ;
+}
+
+/* .skills .skills-content .right .bars {
   margin-bottom: 15px;
 }
 
@@ -504,7 +536,7 @@ section .title::after {
 }
 .skills-content .right .communication::before {
   width: 100%;
-}
+} */
 
 /* projects section styling */
 .projects .title::after {
