@@ -1209,3 +1209,8 @@ footer p a:hover {
     padding: 2rem 0;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 947px) {
+  .skills .skills-content .right .my-skills .skill-logo {
+    min-height: 200px;
+  }
+}
