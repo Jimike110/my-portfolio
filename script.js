@@ -46,8 +46,8 @@ $(document).ready(function () {
       "Creative Person.",
       "vailable.",
     ],
-    typeSpeed: 60,
-    backSpeed: 40,
+    typeSpeed: 70,
+    backSpeed: 60,
     loop: true,
   });
 
