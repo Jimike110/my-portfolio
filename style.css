@@ -567,8 +567,15 @@ section .title::after {
   content: "what I built";
 }
 
+.projects .proj-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .projects .proj-content .card {
-  width: calc(100% - 0px);
+  min-width: max(400px, 90vw);
+  /* width: calc(100% - 0px); */
   background: #222;
   text-align: center;
   border-radius: 6px;
