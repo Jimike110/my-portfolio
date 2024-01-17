@@ -1274,11 +1274,6 @@ footer p a:hover {
 }
 
 .portfolio-image-thumb-wrap {
-  -webkit-text-size-adjust: 100%;
-  --darkreader-neutral-background: #212222;
-  --darkreader-neutral-text: #eae3d9;
-  --darkreader-selection-background: #165aaa;
-  --darkreader-selection-text: #fbf5ec;
   font-size: 16px;
   line-height: 22px;
   font-weight: 500;
@@ -1288,7 +1283,9 @@ footer p a:hover {
   height: 345px;
   border: 1px solid #d2d2d2;
   width: 100%;
-  overflow: hidden;
+  overflow-y:auto;
+  scroll-behavior: smooth;
+  
 }
 
 .portfolio-image-thumb {
@@ -1314,7 +1311,9 @@ footer p a:hover {
 
 .grid-portfolio-item .tag {
   display: flex;
-  gap: 5px;
+  flex-wrap: wrap;
+  row-gap: 1px;
+  column-gap: 5px;
 }
 .grid-portfolio-item .tag span {
   font-family: "Ubuntu", sans-serif;
