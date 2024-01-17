@@ -416,8 +416,18 @@ section .title::after {
 
 /* skills section styling */
 
+.skills {
+  background: #111;
+  color: #fff;
+}
+
+.skills .title::before {
+  background-color: white;
+}
+
 .skills .title::after {
   content: "what I possess";
+  background-color: black;
 }
 
 .skills .skills-content .column {
@@ -434,6 +444,7 @@ section .title::after {
   text-align: justify;
 }
 
+/*
 .skills .skills-content .left a {
   display: inline-block;
   background: crimson;
@@ -451,6 +462,7 @@ section .title::after {
   color: crimson;
   background: none;
 }
+*/
 
 .skills .skills-content .right .my-skills {
   display: flex;
@@ -489,61 +501,6 @@ section .title::after {
   text-align: center;
   padding-top: 10px;
 }
-
-/* .skills .skills-content .right .bars {
-  margin-bottom: 15px;
-}
-
-.skills .skills-content .right .info {
-  display: flex;
-  margin-bottom: 5px;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.skills .skills-content .right span {
-  font-weight: 500;
-  font-size: 18px;
-}
-
-.skills .skills-content .right .line {
-  height: 5px;
-  width: 100%;
-  background: lightgrey;
-  position: relative;
-}
-
-.skills .skills-content .right .line::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: crimson;
-}
-
-.skills-content .right .html::before {
-  width: 100%;
-}
-
-.skills-content .right .css::before {
-  width: 90%;
-}
-
-.skills-content .right .js::before {
-  width: 80%;
-}
-
-.skills-content .right .wordpress::before {
-  width: 90%;
-}
-
-.skills-content .right .graphics::before {
-  width: 60%;
-}
-.skills-content .right .communication::before {
-  width: 100%;
-} */
 
 /* NEW PROJECTS SECTION STYLING */
 .new-projects {
@@ -606,20 +563,19 @@ section .title::after {
   content: "what I built";
 }
 
-.projects,
-.teams {
-  color: #fff;
-  background: #111;
+.projects {
+  background-color: #fff;
+  color: #111;
 }
 
 .projects .title::before,
 .teams .title::before {
-  background: #fff;
+  background: #111;
 }
 
 .projects .title::after,
 .teams .title::after {
-  background: #111;
+  background: #fff;
   content: "what I built";
 }
 
@@ -1273,7 +1229,6 @@ footer p a:hover {
 }
 
 .new-projects-section { 
-  padding: 30px;
   font-size: 16px;
   line-height: 22px;
   font-weight: 500;
@@ -1302,7 +1257,7 @@ footer p a:hover {
   border: 1px solid #e9e9e9;
   padding: 26px;
   width: 100%;
-  max-width: 550px;
+  max-width: 540px;
 }
 
 .grid-portfolio-item-link {
