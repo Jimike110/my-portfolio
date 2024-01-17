@@ -545,6 +545,62 @@ section .title::after {
   width: 100%;
 } */
 
+/* NEW PROJECTS SECTION STYLING */
+.new-projects {
+  width: 100%;
+}
+.new-projects .new-projects-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-projects .new-project-section .new-project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: min(550px, 90vw);
+  border-radius: 11px;
+  background-color: #222;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.new-projects .new-project-section .new-project-card:hover {
+  background-color: crimson;
+  transform: scale(1.05);
+}
+
+.new-projects .new-project-section .new-project-card .project-media {
+  border-radius: 11px;
+  background-color: #111;
+}
+
+.new-projects .new-project-section .new-project-card .project-media img {
+  width: 100%;
+  height: auto;
+}
+
+.new-projects .new-project-section .new-project-card .project-text {
+  padding: 2rem;
+}
+
+.new-projects
+  .new-project-section
+  .new-project-card
+  .project-text
+  .project-title {
+  font-size: 1.8rem;
+  word-spacing: 1.3;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  margin-block-end: 1rem;
+}
+
 /* projects section styling */
 .projects .title::after {
   content: "what I built";
@@ -567,15 +623,8 @@ section .title::after {
   content: "what I built";
 }
 
-.projects .proj-content {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
 .projects .proj-content .card {
-  min-width: max(400px, 90vw);
-  /* width: calc(100% - 0px); */
+  width: calc(100% - 0px);
   background: #222;
   text-align: center;
   border-radius: 6px;
@@ -1220,5 +1269,206 @@ footer p a:hover {
 @media only screen and (min-width: 768px) and (max-width: 947px) {
   .skills .skills-content .right .my-skills .skill-logo {
     min-height: 200px;
+  }
+}
+
+.new-projects-section { 
+  padding: 30px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  /* display: grid;
+  grid-auto-columns: 40%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-column-gap: 60px;
+  grid-row-gap: 60px; */
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.grid-portfolio-item {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  background: #fff;
+  border: 1px solid #e9e9e9;
+  padding: 26px;
+  width: 100%;
+  max-width: 550px;
+}
+
+.grid-portfolio-item-link {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+  background-color: transparent;
+  max-width: 100%;
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+.portfolio-image-thumb-wrap {
+  -webkit-text-size-adjust: 100%;
+  --darkreader-neutral-background: #212222;
+  --darkreader-neutral-text: #eae3d9;
+  --darkreader-selection-background: #165aaa;
+  --darkreader-selection-text: #fbf5ec;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  color: #000;
+  box-sizing: border-box;
+  height: 345px;
+  border: 1px solid #d2d2d2;
+  width: 100%;
+  overflow: hidden;
+}
+
+.portfolio-image-thumb {
+  width: 100%;
+}
+
+.grid-portfolio-item .longThumb {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  color: #000;
+  box-sizing: border-box;
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  transition: all 1s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+.grid-portfolio-item .tag {
+  -webkit-text-size-adjust: 100%;
+  --darkreader-neutral-background: #212222;
+  --darkreader-neutral-text: #eae3d9;
+  --darkreader-selection-background: #165aaa;
+  --darkreader-selection-text: #fbf5ec;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 10px;
+  line-height: 10px;
+  padding: 8px 15px;
+  background: #dccafc;
+  color: #4b0ae5;
+}
+
+.grid-portfolio-item h3 {
+  -webkit-text-size-adjust: 100%;
+  --darkreader-neutral-background: #212222;
+  --darkreader-neutral-text: #eae3d9;
+  --darkreader-selection-background: #165aaa;
+  --darkreader-selection-text: #fbf5ec;
+  font-family: "Ubuntu", sans-serif;
+  color: #000;
+  box-sizing: border-box;
+  line-height: 36px;
+  font-weight: 700;
+  font-size: 20px;
+  height: 36px;
+  overflow: hidden;
+  margin-bottom: 34px;
+  margin-top: 16px;
+}
+
+.grid-portfolio-summary-wrap {
+  -webkit-text-size-adjust: 100%;
+  --darkreader-neutral-background: #212222;
+  --darkreader-neutral-text: #eae3d9;
+  --darkreader-selection-background: #165aaa;
+  --darkreader-selection-text: #fbf5ec;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  color: #000;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+}
+
+.grid-portfolio-summary {
+  -webkit-text-size-adjust: 100%;
+  --darkreader-neutral-background: #212222;
+  --darkreader-neutral-text: #eae3d9;
+  --darkreader-selection-background: #165aaa;
+  --darkreader-selection-text: #fbf5ec;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  color: #000;
+  box-sizing: border-box;
+  flex: 1;
+}
+
+.grid-portfolio-item .grid-portfolio-summary p {
+  -webkit-text-size-adjust: 100%;
+  --darkreader-neutral-background: #212222;
+  --darkreader-neutral-text: #eae3d9;
+  --darkreader-selection-background: #165aaa;
+  --darkreader-selection-text: #fbf5ec;
+  color: #000;
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 24px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.grid-portfolio-item .grid-portfolio-summary p strong {
+  -webkit-text-size-adjust: 100%;
+  --darkreader-neutral-background: #212222;
+  --darkreader-neutral-text: #eae3d9;
+  --darkreader-selection-background: #165aaa;
+  --darkreader-selection-text: #fbf5ec;
+  color: #000;
+  line-height: 24px;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.grid-portfolio-summary:nth-child(2) {
+  border-left: 1px solid #d2d2d2;
+  border-right: 1px solid #d2d2d2;
+  padding-left: 30px;
+}
+
+.grid-portfolio-summary:last-child {
+  padding-left: 30px;
+}
+
+@media screen and (min-width: 500px) {
+  .new-projects-section {
+    flex-direction: row;
   }
 }
