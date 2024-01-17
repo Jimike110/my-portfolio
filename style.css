@@ -1313,40 +1313,31 @@ footer p a:hover {
 }
 
 .grid-portfolio-item .tag {
-  -webkit-text-size-adjust: 100%;
-  --darkreader-neutral-background: #212222;
-  --darkreader-neutral-text: #eae3d9;
-  --darkreader-selection-background: #165aaa;
-  --darkreader-selection-text: #fbf5ec;
-  font-weight: 500;
+  display: flex;
+  gap: 5px;
+}
+.grid-portfolio-item .tag span {
   font-family: "Ubuntu", sans-serif;
-  box-sizing: border-box;
   display: inline-block;
   margin-top: 10px;
   border-radius: 5px;
   font-size: 10px;
   line-height: 10px;
   padding: 8px 15px;
-  background: #dccafc;
-  color: #4b0ae5;
+  background: black;
+  color: #fff;
 }
 
 .grid-portfolio-item h3 {
-  -webkit-text-size-adjust: 100%;
-  --darkreader-neutral-background: #212222;
-  --darkreader-neutral-text: #eae3d9;
-  --darkreader-selection-background: #165aaa;
-  --darkreader-selection-text: #fbf5ec;
   font-family: "Ubuntu", sans-serif;
   color: #000;
   box-sizing: border-box;
-  line-height: 36px;
+  line-height: 29px;
   font-weight: 700;
   font-size: 20px;
   height: 36px;
-  overflow: hidden;
-  margin-bottom: 34px;
-  margin-top: 16px;
+  margin-bottom: 39px;
+  margin-top: 20px;
 }
 
 .grid-portfolio-summary-wrap {
