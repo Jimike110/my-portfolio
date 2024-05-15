@@ -51,13 +51,6 @@ $(document).ready(function () {
     loop: true,
   });
 
-  /*  var typed = new Typed(".typing-2", {
-        strings: ["Developer", "Creative", "Designer"],
-        typeSpeed: 60,
-        backSpeed: 60,
-        loop: true
-    }); */
-
   // download popup script
   const downloadBtn = document.querySelector("#download-cv");
   const modal = document.querySelector("#modal");
