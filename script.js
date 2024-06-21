@@ -52,7 +52,7 @@ $(document).ready(function () {
   });
 
   // download popup script
-  const downloadBtn = document.querySelector("#download-cv");
+  const downloadBtn = document.querySelector("#view-cv");
   const modal = document.querySelector("#modal");
   const closeBtn = document.querySelector("#close-btn");
 
